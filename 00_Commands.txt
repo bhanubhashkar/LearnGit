@@ -75,6 +75,10 @@ To create a branch and change current pointer to thw new one.
 git merge branch-name -m "message to be added"
 To merge given branch to the current working branch. (bringing something to current)
 
+git branch -d branch-name
+To delete the given branch name.
+
+
 
 
 #####------------------------------------------------------------------------------------------------------#####
