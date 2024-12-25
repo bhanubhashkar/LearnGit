@@ -9,7 +9,11 @@ github, bitbucket are services.
 
 A folder containing code files caled as repo (repository).
 
+After git init one hidden folder .git is created to track all files and folder present inside repository.
 
+Git Workflow :
+
+[Working Directory] -> git add -> [Staging Area] -> git commit -> [Repository] -> git push -> [cloud]
 
 
 

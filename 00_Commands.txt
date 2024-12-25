@@ -8,8 +8,28 @@ Commands :
     To create folder(by above two folder will be created)
 3. git --version
     To check the git version
-4. 
+4. touch TestOne.txt TestTwo.txt
+    To create files(by above two files will be created)
 
+
+ls -la
+To list all files/folder including hidden ones inside current working directory.
+
+cd ..
+To go one step back in current working directory.
+
+
+git ststus
+To check current repository status
+
+git init
+To initialise git repository (only one time perrepositoy)
+
+git add TestOne.txt
+Start tracking the file and move to staging Area
+
+git commit -m "message to be added"
+Commit changes with message
 
 
 
