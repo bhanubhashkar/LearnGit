@@ -16,6 +16,17 @@ Git Workflow :
 [Working Directory] -> git add -> [Staging Area] -> git commit -> [Repository] -> git push -> [cloud]
 
 
+Atomic Commits :
+Each commit should express a single unit of work on a single feature. Don't bulk-commit all of the day's work, or write your entire project in one go and then commit that all at once. 
+Commit whole pieces of work, ideally leaving the application in a workable state.
+
+gitignore
+
+
+In Git, a "branch" represents a separate line of development within a repository.
+While "HEAD" is a pointer that always points to the currently checked-out commit, essentially indicating which branch we are actively working on.
+meaning, "HEAD" is like a marker on the current branch, moving whenever we switch branches in our local repository.
+
 
 
 

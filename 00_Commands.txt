@@ -15,22 +15,65 @@ Commands :
 ls -la
 To list all files/folder including hidden ones inside current working directory.
 
+cd
+To go to root directory of the mechine
+
 cd ..
 To go one step back in current working directory.
 
+pwd
+Shows working directory (Print Working Directory).
 
-git ststus
-To check current repository status
+cat .gitconfig
+Show all git config.
+
+
+git status
+To check current repository status.
 
 git init
-To initialise git repository (only one time perrepositoy)
+To initialise git repository (only one time perrepositoy).
 
 git add TestOne.txt
-Start tracking the file and move to staging Area
+Start tracking the file and move to staging Area.
+
+git add .
+Start tracking all the file from current directory and move to staging Area.
 
 git commit -m "message to be added"
-Commit changes with message
+Commit changes with message.
 
+git log
+To check the commit logs in detail.
+
+git log --oneline
+To check the commit logs in short.
+
+git config --global user.name "Bhanu Bhashkar"
+To set user name
+
+git config --global user.email "reachoutbhanu@gmail.com"
+To set user email
+
+git config --global core.editor "code --wait"
+To set user name
+
+git branch
+Shows all branches are current branch where we are pointing to.
+
+git branch branch-name
+Creates a new branch.
+
+git checkout branch-name
+git switch branch-name
+To change current pointer to other branch.
+
+git checkout -b branch-name
+git switch -c branch-name
+To create a branch and change current pointer to thw new one.
+
+git merge branch-name -m "message to be added"
+To merge given branch to the current working branch. (bringing something to current)
 
 
 
