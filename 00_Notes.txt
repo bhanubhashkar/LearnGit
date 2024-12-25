@@ -1,0 +1,18 @@
+#####------------------------------------------------------------------------------------------------------#####
+#####----- Notes ------------------------------------------------------------------------------------------#####
+
+
+Git is a distributed version control system (DVCS) that allows developers to track changes in their codebase, collaborate with others, and manage different versions of their projects efficiently
+
+git is a software.
+github, bitbucket are services.
+
+A folder containing code files caled as repo (repository).
+
+
+
+
+
+
+
+#####------------------------------------------------------------------------------------------------------#####
