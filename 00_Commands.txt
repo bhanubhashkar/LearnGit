@@ -78,6 +78,42 @@ To merge given branch to the current working branch. (bringing something to curr
 git branch -d branch-name
 To delete the given branch name.
 
+git diff --staged
+To chcek the difference between staged file since last commited file.
+
+git diff branchOne bravhTwo
+To chcek the difference between two given branches.
+
+git stash
+Stash the uncommited code.
+
+git stsh list 
+To see all stashed code list.
+
+git stash pop
+To unstash the stashed code. (can be poped to another branch also)
+
+git stash apply stash@{index}
+To unstash or pop code from stashed list 
+
+
+git checkout commit-hash-code 
+To check file older version by giving commit hash code. Move the HEAD to older commit/node. 
+
+git switch branch-name
+git reflog
+Move the HEAD back to the original node/commit. 
+
+git switch branch-name
+
+
+git checkout HEAD~NumberLike-1-2
+Move head back by the given no of commits.
+
+git restore fil-name
+Get back to last commit version
+
+
 
 
 
