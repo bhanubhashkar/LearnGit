@@ -43,6 +43,10 @@ Start tracking all the file from current directory and move to staging Area.
 git commit -m "message to be added"
 Commit changes with message.
 
+git commit -am "message to be added"
+Add and commit changes with message at the same time.
+
+
 git log
 To check the commit logs in detail.
 
@@ -113,8 +117,10 @@ Move head back by the given no of commits.
 git restore fil-name
 Get back to last commit version
 
+git merge branch-name -m "message to be added"
+Merge given branch to current woeking branch.
 
-
-
+git rebase master-branch
+Bebase the commits of diff branches
 
 #####------------------------------------------------------------------------------------------------------#####
